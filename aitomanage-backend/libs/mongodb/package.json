@@ -1,0 +1,22 @@
+{
+  "name": "@aitomanage/mongodb",
+  "version": "1.0.0",
+  "description": "AiToManage MongoDB Schemas and Database Utilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@nestjs/mongoose": "^10.0.0",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0"
+  }
+}
